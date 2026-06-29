@@ -1,0 +1,35 @@
+[
+  {
+    "id": "1",
+    "destination": "Paris",
+    "country": "France",
+    "days": 7,
+    "budget": "economy",
+    "budgetUsd": 1500,
+    "travelType": "couple",
+    "status": "upcoming",
+    "image": "/placeholder.svg"
+  },
+  {
+    "id": "2",
+    "destination": "Tokyo",
+    "country": "Japan",
+    "days": 10,
+    "budget": "luxury",
+    "budgetUsd": 8000,
+    "travelType": "solo",
+    "status": "completed",
+    "image": "/placeholder.svg"
+  },
+  {
+    "id": "3",
+    "destination": "New York",
+    "country": "USA",
+    "days": 5,
+    "budget": "business",
+    "budgetUsd": 3000,
+    "travelType": "business",
+    "status": "upcoming",
+    "image": "/placeholder.svg"
+  }
+]
