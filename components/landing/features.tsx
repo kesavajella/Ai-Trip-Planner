@@ -33,7 +33,7 @@ export function Features() {
       <div className="mx-auto max-w-6xl px-4 md:px-6">
         <div className="mx-auto max-w-2xl text-center">
           <span className="mb-4 inline-block rounded-full border border-border bg-card px-3 py-1 text-xs text-muted-foreground">
-            Why Maro
+            Why intellitrip
           </span>
           <h2 className="font-serif text-4xl tracking-tight text-balance md:text-5xl">
             Travel planning, <em className="italic text-primary">finally</em> done right.

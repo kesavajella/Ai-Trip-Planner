@@ -18,7 +18,7 @@ export default function SignupPage() {
   function signInWithGoogle() {
     if (loading) return
     setLoading(true)
-    toast.success("Signed in with Google", { description: "Welcome to Maro!" })
+    toast.success("Signed in with Google", { description: "Welcome to intellitrip!" })
     router.replace("/dashboard")
   }
 

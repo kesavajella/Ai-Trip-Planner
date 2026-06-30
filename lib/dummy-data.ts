@@ -315,7 +315,7 @@ export const testimonials = [
     role: "Solo traveler",
     avatar: "/images/avatar-1.jpg",
     quote:
-      "I planned a 10-day trip across Vietnam in under 5 minutes. Maro somehow knew I'd love the small coffee shops in Hanoi.",
+      "I planned a 10-day trip across Vietnam in under 5 minutes. intellitrip somehow knew I'd love the small coffee shops in Hanoi.",
   },
   {
     name: "Marcus Chen",

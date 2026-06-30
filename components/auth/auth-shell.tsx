@@ -40,7 +40,7 @@ export function AuthShell({
         <div aria-hidden className="absolute inset-0 bg-gradient-to-t from-foreground/50 to-transparent" />
         <div className="absolute bottom-10 left-10 right-10 max-w-md rounded-2xl border border-white/15 bg-background/85 p-5 backdrop-blur-md">
           <p className="font-serif text-xl leading-snug">
-            &ldquo;Maro planned the most thoughtful 9-day Greece trip I&apos;ve ever taken — and saved me a weekend
+            &ldquo;intellitrip planned the most thoughtful 9-day Greece trip I&apos;ve ever taken — and saved me a weekend
             of tabs.&rdquo;
           </p>
           <p className="mt-3 text-xs text-muted-foreground">— Amelia, solo traveler</p>

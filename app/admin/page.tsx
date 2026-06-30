@@ -35,7 +35,7 @@ const pieColors = ["var(--chart-1)", "var(--chart-2)", "var(--chart-3)", "var(--
 export default function AdminPage() {
   return (
     <>
-      <Topbar title="Admin Overview" subtitle="A quick pulse on Maro usage and growth." />
+      <Topbar title="Admin Overview" subtitle="A quick pulse on intellitrip usage and growth." />
       <div className="flex-1 space-y-8 px-4 py-8 md:px-8">
         {/* Stats */}
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">

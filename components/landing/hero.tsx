@@ -29,7 +29,7 @@ export function Hero() {
           </h1>
 
           <p className="mt-5 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground md:text-lg">
-            Tell us where you&apos;re going, your budget, and your vibe. In under a minute, Maro builds a day-by-day
+            Tell us where you&apos;re going, your budget, and your vibe. In under a minute, intellitrip builds a day-by-day
             itinerary with hotels, restaurants, and hidden gems — tuned to your taste.
           </p>
 

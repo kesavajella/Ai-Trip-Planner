@@ -12,13 +12,13 @@ export function Logo({
   showWordmark?: boolean
 }) {
   return (
-    <Link href={href} className={cn("group inline-flex items-center gap-2", className)} aria-label="Maro home">
-      <span className="grid h-9 w-9 place-items-center rounded-xl bg-primary text-primary-foreground soft-shadow transition-transform group-hover:-rotate-12">
-        <Compass className="h-[1.1rem] w-[1.1rem]" strokeWidth={2.25} />
+    <Link href={href} className={cn("group inline-flex items-center gap-2.5", className)} aria-label="intellitrip home">
+      <span className="grid h-10 w-10 place-items-center rounded-xl bg-primary text-primary-foreground soft-shadow transition-all duration-300 group-hover:-rotate-6 group-hover:scale-105">
+        <Compass className="h-[1.25rem] w-[1.25rem]" strokeWidth={2.25} />
       </span>
       {showWordmark && (
-        <span className="font-serif text-2xl leading-none tracking-tight">
-          Maro<span className="text-primary">.</span>
+        <span className="font-instrument text-[1.7rem] leading-none tracking-[-0.03em] font-normal">
+          intellitrip<span className="text-primary">.</span>
         </span>
       )}
     </Link>

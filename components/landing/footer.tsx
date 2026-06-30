@@ -37,14 +37,14 @@ export function Footer() {
           <div className="md:col-span-4">
             <Logo />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-muted-foreground">
-              Maro is the AI travel planner that turns scattered ideas into thoughtful, day-by-day itineraries.
+              intellitrip is the AI travel planner that turns scattered ideas into thoughtful, day-by-day itineraries.
             </p>
             <a
-              href="mailto:hello@maro.app"
+              href="mailto:hello@intellitrip.app"
               className="mt-4 inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground"
             >
               <Mail className="h-4 w-4" />
-              hello@maro.app
+              hello@intellitrip.app
             </a>
           </div>
 
@@ -68,7 +68,7 @@ export function Footer() {
 
         <div className="mt-10 flex flex-col items-start justify-between gap-4 border-t border-border pt-6 md:flex-row md:items-center">
           <p className="text-xs text-muted-foreground">
-            © {new Date().getFullYear()} Maro Travel, Inc. All rights reserved.
+            © {new Date().getFullYear()} intellitrip Travel, Inc. All rights reserved.
           </p>
           <div className="flex items-center gap-1">
             {socials.map((s) => (

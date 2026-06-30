@@ -23,7 +23,7 @@ const instrumentSerif = Instrument_Serif({
 })
 
 export const metadata: Metadata = {
-  title: "Maro — Plan Your Perfect Trip with AI",
+  title: "intellitrip — Plan Your Perfect Trip with AI",
   description:
     "AI-powered trip planner that builds personalized itineraries, optimizes your budget, and recommends the best places, hotels, and transport for your next adventure.",
   generator: "v0.app",
