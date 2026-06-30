@@ -25,7 +25,7 @@ export async function POST(request: NextRequest) {
       inputForPrompt = {
         city: destination || "",
         numberOfDays: days,
-        budget: (budget === "low" ? "Cheap" : budget === "medium" ? "Moderate" : "Luxury") as TripPlanRequest["budget"],
+        budget: (budget === "low" ? "Budget Friendly" : budget === "medium" ? "Moderate" : "Luxury") as TripPlanRequest["budget"],
         travelers: (travelCompanion === "solo" ? "Just Me" : travelCompanion === "couple" ? "A Couple" : travelCompanion === "family" ? "Family" : "Friends") as TripPlanRequest["travelers"],
       };
     }
@@ -46,10 +46,10 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const validBudgets = ["Cheap", "Moderate", "Luxury"];
+    const validBudgets = ["Budget Friendly", "Moderate", "Luxury"];
     if (!validBudgets.includes(inputForPrompt.budget)) {
       return NextResponse.json(
-        { error: "Budget must be: Cheap, Moderate, or Luxury" },
+        { error: "Budget must be: Budget Friendly, Moderate, or Luxury" },
         { status: 400 }
       );
     }
@@ -100,7 +100,7 @@ export async function POST(request: NextRequest) {
 
       const fallbackItinerary = generateFallbackItinerary(
         inputForPrompt.city,
-        inputForPrompt.budget === "Cheap" ? "low" : inputForPrompt.budget === "Luxury" ? "luxury" : "medium",
+        inputForPrompt.budget === "Budget Friendly" ? "low" : inputForPrompt.budget === "Luxury" ? "luxury" : "medium",
         inputForPrompt.numberOfDays,
         interests || [],
         inputForPrompt.travelers

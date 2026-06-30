@@ -21,7 +21,7 @@ const interests = [
 ]
 
 const budgets: { id: TripPlanRequest["budget"]; label: string; desc: string; icon: any }[] = [
-  { id: "Cheap", label: "Cheap", desc: "Stay conscious of costs", icon: TrendingDown },
+  { id: "Budget Friendly", label: "Budget Friendly", desc: "Stay conscious of costs", icon: TrendingDown },
   { id: "Moderate", label: "Moderate", desc: "Balance comfort and value", icon: DollarSign },
   { id: "Luxury", label: "Luxury", desc: "Premium experience", icon: Gem },
 ]

@@ -1,7 +1,7 @@
 export interface TripPlanRequest {
   city: string;
   numberOfDays: number;
-  budget: 'Cheap' | 'Moderate' | 'Luxury';
+  budget: 'Budget Friendly' | 'Moderate' | 'Luxury';
   travelers: 'Just Me' | 'A Couple' | 'Family' | 'Friends';
 }
 
